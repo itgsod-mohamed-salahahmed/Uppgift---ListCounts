@@ -13,12 +13,12 @@ from listcounts import min
 @raises(TypeError)
 def test_min_takes_a_list_as_argument():
 
-    min()
+    min(6)
 
 @raises(ValueError)
 def test_min_takes_a_non_empty_list_as_argument():
 
-    min([])
+    min([6])
 
 
 def test_min_a_list_with_3_5_7_should_give_3():
