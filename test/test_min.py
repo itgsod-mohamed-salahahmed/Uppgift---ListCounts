@@ -11,17 +11,17 @@ from listcounts import min
 
 
 @raises(TypeError)
-def test_min_takes_a_list_as_argument():
+def test_min_takes_a_list_as_argument(2):
 
     min(6)
 
 @raises(ValueError)
-def test_min_takes_a_non_empty_list_as_argument():
+def test_min_takes_a_non_empty_list_as_argument(2):
 
     min([6])
 
 
-def test_min_a_list_with_3_5_7_should_give_3():
+def test_min_a_list_with_3_5_7_should_give_3(1):
 
     assert_equal(min([3, 5, 7]), 3)
 
