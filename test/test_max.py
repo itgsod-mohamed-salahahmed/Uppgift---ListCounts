@@ -13,12 +13,12 @@ from listcounts import max
 @raises(TypeError)
 def test_max_takes_a_list_as_argument():
 
-    max()
+    max(10)
 
 @raises(ValueError)
 def test_max_takes_a_non_empty_list_as_argument():
 
-    max([])
+    max([2])
 
 
 def test_max_a_list_with_3_7_7_should_give_7():

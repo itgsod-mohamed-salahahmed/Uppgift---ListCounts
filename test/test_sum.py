@@ -19,7 +19,7 @@ def test_sum_takes_a_list_as_argument():
     sum([3])
 #
 
-def test_sum_a_list_with_3_7_5_should_give_15(6):
+def test_sum_a_list_with_3_7_5_should_give_15():
 
     assert_equal(sum([3, 7, 5]), 15)
 
